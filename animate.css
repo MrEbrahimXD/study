@@ -1,6 +1,6 @@
 .transition-fade {
     opacity: 1;
-    transition:all 500ms;
+    transition:opacity 500ms ease;
 }
 html.is-animating .transition-fade{
     opacity: 0;
