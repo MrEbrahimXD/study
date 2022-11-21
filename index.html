@@ -15,12 +15,13 @@
         content="تعلم كل موادك الدراسيه بلا مقابل. ادخل على https://mrebrahimxd.com/study لتعرف المزيد" lang="ar">
     <!-- <script defer src="./swup.min.js"> -->
     </script>
-    <script src="./swup.js" defer></script>
+    <!-- <script src="./swup.js" defer></script> -->
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300&display=swap" rel="stylesheet">
     <script defer src="./jquery.min.js"></script>
+    <script src="canvas.js" defer></script>
     <script defer src="index.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
@@ -32,7 +33,15 @@
 </head>
 
 
-<body>
+<body> 
+    <canvas id="canvas" style="display: none;position: fixed;overflow: hidden;" height="100%" width="100%"></canvas>
+    <audio src="./audio/allahu(swt)more.mp3" class="audio" style="display: none;"></audio>
+    <audio src="./audio/jibril.mp3" class="audio" style="display: none;"></audio>
+    <audio src="./audio/kanz.mp3" class="audio" style="display: none;"></audio>
+    <audio src="./audio/muhammed(pbuh).mp3" class="audio" style="display: none;"></audio>
+    <audio src="./audio/sa3ty.mp3" class="audio" style="display: none;"></audio>
+    <audio src="./audio/sabeeldmoo3.mp3" class="audio" style="display: none;"></audio>
+    <audio src="./audio/subh.mp3" class="audio" style="display: none;"></audio>
     <header class="header">
         <nav class="navigation">
 
@@ -41,6 +50,7 @@
                 <li><a href="/index.html">المواد</a></li>
                 <li><a href="">معلومات</a></li>
                 <li><a href="">تحضيرات</a></li>
+                <li><a href="#" onclick="rfAudio()">تذكير</a></li>
             </ul>
 
 
@@ -56,6 +66,7 @@
             <li><a href="/index.html">المواد</a></li>
             <li><a href="">معلومات</a></li>
             <li><a href="">تحضيرات</a></li>
+            <li><a href="#" onclick="rfAudio()">تذكير</a></li>
         </ul>
 
     </header>
