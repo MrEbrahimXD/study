@@ -30,6 +30,7 @@ body {
   margin-right: auto;
   color: #fff;
   background-image: url("../images/header-background.svg");
+  shape-rendering: optimizeSpeed;
   background-attachment: fixed;
   background-size: 900px;
   box-shadow: 1px 1px 3px 0 black;
