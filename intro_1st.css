@@ -1,15 +1,31 @@
 .intro {
   width: 100%;
-  height: calc(100% + 3rem);
-  background-image: url("../images/background.svg");
+  height: calc(100% + 100vh);
+}
+body{
+  background-image: url("./images/background.svg");
   background-size: cover;
   shape-rendering: optimizeSpeed;
 }
 .card {
   display: flex;
   justify-content: center;
-  margin-top: 4.5rem;
+  margin-top: 6rem;
   flex-wrap: wrap;
+}
+.objects {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7rem;
+  justify-content: center;
+  align-items: center;
+}
+.objects > * {
+  margin-top: 2rem;
+}
+.objects h1 {
+  text-align: left;
+  font-size: 3rem;
 }
 .hero {
   display: inline-block;
