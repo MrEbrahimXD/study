@@ -2,6 +2,11 @@
   width: 100%;
   height: calc(100% + 100vh);
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 body{
   background-image: url("./images/background.svg");
   background-size: cover;
@@ -14,11 +19,15 @@ body{
   flex-wrap: wrap;
 }
 .objects {
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   margin-top: 7rem;
   justify-content: center;
   align-items: center;
+  background-color: #5f5f5f3f;
+  width: 95%;
+  border-radius: 9px;
 }
 .objects > * {
   margin-top: 2rem;
@@ -26,6 +35,9 @@ body{
 .objects h1 {
   text-align: left;
   font-size: 3rem;
+}
+.objects p {
+  font-size: 2rem;
 }
 .hero {
   display: inline-block;
