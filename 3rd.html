@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html dir="rtl" lang="en">
+<html dir="rtl" lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>مواد الصف الثالث الثانوي</title>
     <link rel="icon" href="/images/icon.jpg">
-    <script src="./swup.min.js" defer></script>
-    <script src="./swup.js" defer></script>
+    <!-- <script src="./swup.min.js" defer></script> -->
+    <!-- <script src="./swup.js" defer></script> -->
     <link rel="stylesheet" href="animate.css">
-    <link rel="stylesheet" href="style_1st.css">
+    <!-- <link rel="stylesheet" href="style_1st.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300&display=swap" rel="stylesheet">
@@ -22,6 +22,11 @@
     <meta property="og:type" content="website.study" />
     <meta property="og:url" content="https://mrebrahimxd.com/study/subjects/" />
     <meta property="og:image" content="https://mrebrahimxd.com/study/images/study.jpg" />
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="searchBar.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="navigation.js" defer></script>
+    <!-- <script src="rain_animation.js" defer></script> -->
 </head>
 <body>
 
@@ -41,33 +46,32 @@
     <audio src="./audio/thank_you_allah.mp3" class="audio" style="display: none;"></audio>
 
 
-    <header class="header">
-        <nav class="navigation">
-
-            <span>ذاكر</span>
-            <ul class="nav-ul">
-                <li><a href="./index.html">المواد</a></li>
-                <li><a href="">معلومات</a></li>
-                <li><a href="">تحضيرات</a></li>
-                <li><a href="#" onclick="rfAudio()">تذكير</a></li>
-            </ul>
-        </nav>
-        <div class="nav-button">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+    <header>
+        <img src="https://study.mrebrahimxd.com/zaker.png" width="80" alt="ذاكر" class="logo"/>
+    
+    
+        <div class="topnav" id="myTopnav">
+          <a href="/index.html" class="active">الرئيسية</a>
+          <div class="dropdown">
+            <button class="dropbtn">الصفوف الدراسية
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content animate">
+              <a href="/1st.html">الصف الأول الثانوي</a>
+              <a href="/2nd.html">الصف الثاني الثانوي</a>
+              <a href="/3rd.html">الصف الثالث الثانوي</a>
+            </div>
+          </div>
+          <a href="#contact">اتصل بنا</a>
+          <a href="#" onclick="rfAudio()">تذكير</a>
+          <input class="searchbox"><div class="div1"></div></input>
+            
+    
+          <a href="#" style="font-size:15px;" class="icon" onclick="navigation()">&#9776;</a>
         </div>
-        <ul class="ul">
-            <li><a href="./index.html">المواد</a></li>
-            <li><a href="#">معلومات</a></li>
-            <li><a href="#">تحضيرات</a></li>
-            <li><a href="#" onclick="rfAudio()">تذكير</a></li>
-        </ul>
-
-    </header>
-    <main>
-        <section class="intro transition-fade" id="swup">
+      </header>
+    <main class="transition-fade" id="swup">
+        <section class="intro">
             <div class="card">
                 <div class="second hero">
                     <img class="hero-profile-img"

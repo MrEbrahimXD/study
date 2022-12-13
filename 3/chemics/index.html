@@ -9,7 +9,6 @@
     <!-- <script src="./swup.min.js" defer></script> -->
     <!-- <script src="./swup.js" defer></script> -->
     <link rel="stylesheet" href="../../animate.css" />
-    <link rel="stylesheet" href="../../style_1st.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,6 +22,9 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../../header.css">
+    <link rel="stylesheet" href="../../searchBar.css">
+    <link rel="stylesheet" href="../../style.css">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -91,28 +93,29 @@
       class="audio"
       style="display: none"
     ></audio>
-    <header class="header">
-      <nav class="navigation">
-        <span>ذاكر</span>
-        <ul class="nav-ul">
-          <li><a href="../../index.html">المواد</a></li>
-          <li><a href="">معلومات</a></li>
-          <li><a href="">تحضيرات</a></li>
-          <li><a href="#" onclick="rfAudio()">تذكير</a></li>
-        </ul>
-      </nav>
-      <div class="nav-button">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+    <header>
+      <img src="https://study.mrebrahimxd.com/zaker.png" width="80" alt="ذاكر" class="logo"/>
+  
+  
+      <div class="topnav" id="myTopnav">
+        <a href="#" class="active">الرئيسية</a>
+        <div class="dropdown">
+          <button class="dropbtn">الصفوف الدراسية
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content animate">
+            <a href="/1st.html">الصف الأول الثانوي</a>
+            <a href="/2nd.html">الصف الثاني الثانوي</a>
+            <a href="/3rd.html">الصف الثالث الثانوي</a>
+          </div>
+        </div>
+        <a href="#contact">اتصل بنا</a>
+        <a href="#" onclick="rfAudio()">تذكير</a>
+        <input class="searchbox"><div class="div1"></div></input>
+          
+  
+        <a href="#" style="font-size:15px;" class="icon" onclick="navigation()">&#9776;</a>
       </div>
-      <ul class="ul">
-        <li><a href="../../index.html">المواد</a></li>
-        <li><a href="#">معلومات</a></li>
-        <li><a href="#">تحضيرات</a></li>
-        <li><a href="#" onclick="rfAudio()">تذكير</a></li>
-      </ul>
     </header>
     <main>
       <section class="intro container transition-fade" id="swup">
