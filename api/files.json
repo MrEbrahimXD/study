@@ -1,0 +1,41 @@
+{
+  "firstSecondary": {
+    "physics" : { "title": "", "description": "", "link":""},
+    "math" : { "title": "", "description": "", "link":""},
+    "biology": { "title": "", "description": "", "link":""},
+    "chemics": { "title": "", "description": "", "link":""},
+    "arabic":{ "title": "", "description": "", "link":""},
+    "english":{ "title": "", "description": "", "link":""},
+    "france":{ "title": "", "description": "", "link":""},
+    "geography":{ "title": "", "description": "", "link":""},
+    "history":{ "title": "", "description": "", "link":""}
+  }
+  ,
+  "secondSecondary": {
+    "physics" : { "title": "", "description": "", "link":""},
+    "math" : { "title": "", "description": "", "link":""},
+    "biology": { "title": "", "description": "", "link":""},
+    "chemics": { "title": "", "description": "", "link":""},
+    "arabic":{ "title": "", "description": "", "link":""},
+    "english":{ "title": "", "description": "", "link":""},
+    "france":{ "title": "", "description": "", "link":""},
+    "geography":{ "title": "", "description": "", "link":""},
+    "history":{ "title": "", "description": "", "link":""},
+    "dynamics":{ "title": "", "description": "", "link":""},
+    "statics":{ "title": "", "description": "", "link":""}
+  }
+  ,
+  "thirdSecondary" : {
+    "physics" : { "title": "", "description": "", "link":""},
+    "math" : { "title": "", "description": "", "link":""},
+    "biology": { "title": "درس كذا", "description": "lorem20", "link":"https://sjkadjasjdaj"},
+    "chemics": { "title": "", "description": "", "link":""},
+    "arabic":{ "title": "", "description": "", "link":""},
+    "english":{ "title": "", "description": "", "link":""},
+    "france":{ "title": "", "description": "", "link":""},
+    "geography":{ "title": "", "description": "", "link":""},
+    "history":{ "title": "", "description": "", "link":""},
+    "dynamics":{ "title": "", "description": "", "link":""},
+    "statics":{ "title": "", "description": "", "link":""}
+  }
+}

@@ -11,10 +11,13 @@
     <title>شهاده الدراسه الثانويه | ادرس وتعلم بدون مقابل مادي!</title>
     <!-- <meta name="description" content="Study All Of Your Subjects For Free. Dive into https://mrebrahimxd/study to learn more !" lang="en" > -->
     <link rel="icon" href="/images/icon.jpg">
+    <link rel="stylesheet" href="header.css">
     <meta name="description"
         content="تعلم كل موادك الدراسيه بلا مقابل. ادخل على https://mrebrahimxd.com/study لتعرف المزيد" lang="ar">
-    <!-- <script defer src="./swup.min.js"> -->
-    </script>
+    <!-- <script defer src="./swup.min.js"></script> -->
+
+    <link rel="stylesheet" href="searchBar.css">
+    <script src="navigation.js" defer></script>
     <!-- <script src="./swup.js" defer></script> -->
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,6 +26,7 @@
     <script defer src="./jquery.min.js"></script>
     <script src="canvas.js" defer></script>
     <script defer src="index.js"></script>
+    <script src="rain_animation.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" href="intro.css">
@@ -33,7 +37,8 @@
 </head>
 
 
-<body> 
+<body>
+    <canvas id="canvas"></canvas> 
     <audio src="./audio/morning_1.mp3" class="audio" style="display: none;"></audio>
     <audio src="./audio/allahu.mp3" class="audio" style="display: none;"></audio>
     <audio src="./audio/subh.mp3" class="audio" style="display: none;"></audio>
@@ -48,34 +53,30 @@
     <audio src="./audio/sabeel_dmoo3.mp3" class="audio" style="display: none;"></audio>
     <audio src="./audio/wonders.mp3" class="audio" style="display: none;"></audio>
     <audio src="./audio/thank_you_allah.mp3" class="audio" style="display: none;"></audio>
-    <header class="header">
-        <nav class="navigation">
-
-            <img src="./images/icon-nobg.png" width="100">
-            <ul class="nav-ul">
-                <li><a href="/index.html">المواد</a></li>
-                <li><a href="">معلومات</a></li>
-                <li><a href="">تحضيرات</a></li>
-                <li><a href="#" onclick="rfAudio()">تذكير</a></li>
-            </ul>
-
-
-
-        </nav>
-        <div class="nav-button">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+    <header>
+        <img src="https://study.mrebrahimxd.com/zaker.png" width="80" alt="ذاكر" class="logo"/>
+    
+    
+        <div class="topnav" id="myTopnav">
+          <a href="#" class="active">الرئيسية</a>
+          <div class="dropdown">
+            <button class="dropbtn">الصفوف الدراسية
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content animate">
+              <a href="#">الصف الأول الثانوي</a>
+              <a href="#">الصف الثاني الثانوي</a>
+              <a href="#">الصف الثالث الثانوي</a>
+            </div>
+          </div>
+          <a href="#contact">اتصل بنا</a>
+          <a href="#" onclick="rfAudio()">تذكير</a>
+          <input class="searchbox"><div class="div1"></div></input>
+            
+    
+          <a href="#" style="font-size:15px;" class="icon" onclick="navigation()">&#9776;</a>
         </div>
-        <ul class="ul">
-            <li><a href="/index.html">المواد</a></li>
-            <li><a href="">معلومات</a></li>
-            <li><a href="">تحضيرات</a></li>
-            <li><a href="#" onclick="rfAudio()">تذكير</a></li>
-        </ul>
-
-    </header>
+      </header>
 
     <main>
         <section class="intro transition-fade" id="swup">

@@ -1,14 +1,13 @@
 .intro {
   width: 100%;
   height: calc(100% + 3rem);
-  background-image: url("../images/background.svg");
   background-size: cover;
   shape-rendering: optimizeSpeed;
+  margin-top: 6rem;
 }
 .card {
   display: flex;
   justify-content: center;
-  margin-top: 4.5rem;
   flex-wrap: wrap;
 }
 .hero {
