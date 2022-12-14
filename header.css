@@ -128,7 +128,6 @@ display:none;
 .topnav {
 position: fixed;
 width: 100%;
-overflow: hidden;
 top:0;
 z-index: 100;
 background-color: #000;
@@ -233,7 +232,7 @@ margin-left:0;
 height: 60px;
 width:100%;
 }
-.topnav.responsive {z-index: 10;height:50vh;overflow-y:auto;}
+.topnav.responsive {z-index: 10;height: auto;}
 .topnav.responsive .icon {
 position: absolute;
 right: 0;
