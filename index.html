@@ -14,11 +14,16 @@
     <link rel="stylesheet" href="header.css">
     <meta name="description"
         content="تعلم كل موادك الدراسيه بلا مقابل. ادخل على https://mrebrahimxd.com/study لتعرف المزيد" lang="ar">
-    <script defer src="./swup.min.js"></script>
+        <!-- Barba.js -->
+        <script src="https://cdn.jsdelivr.net/npm/@barba/core" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js" defer></script>
+        <script src="barba_animate.js" defer></script>
+
+
+        <!-- Barba Ended -->
     <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="searchBar.css">
     <script src="navigation.js" defer></script>
-    <script src="./swup.js" defer></script>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +31,6 @@
     <script defer src="./jquery.min.js"></script>
     <script src="canvas.js" defer></script>
     <script defer src="index.js"></script>
-    <script src="rain_animation.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" href="intro.css">
@@ -37,7 +41,15 @@
 </head>
 
 
-<body>
+<body data-barba="wrapper">
+    <ul class="transition">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
     <canvas id="canvas"></canvas> 
     <audio src="./audio/morning_1.mp3" class="audio" style="display: none;"></audio>
     <audio src="./audio/allahu.mp3" class="audio" style="display: none;"></audio>
@@ -78,7 +90,7 @@
         </div>
       </header>
 
-    <main class="transition-fade" id="swup">
+    <main data-barba="container" data-barba-namespace="home"> 
         <section class="intro">
             <div class="card">
                 <div class="second hero">

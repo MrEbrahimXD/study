@@ -1,0 +1,78 @@
+*,*::after,*::before {
+    box-sizing: border-box;
+}
+
+.intro {
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    gap: 1rem;
+    grid-template-columns: 6fr 1.5fr;
+    height: 100%;
+}
+.objects {
+    padding : 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+  }
+  .object{
+    background-color: ;
+  }
+  .objects > * {
+    margin-top: 3rem;
+  }
+  .object > * {
+    margin-top: 0.5rem;
+  }
+  .object iframe {
+    height: 300px;
+    width: 50%;
+  }
+  .object h1 {
+    text-align:right;
+    font-size: 4rem;
+  }
+  .object p {
+    text-align: left;
+    font-size: 2rem;
+  }
+
+.navigation_bar {
+    margin: 1rem;
+    height: 100%;
+    margin-top: 4rem;
+    border-radius: 9px;
+    background-color: #5f5f5f27;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navigation_bar h2 {
+    font-size: 2.4rem;
+}
+.navigation_bar li {
+    font-size: 1.5rem;
+    
+}
+.navigation_bar a {
+    color: #f1c40f;
+}
+main {
+    padding: 1rem;
+}
+
+
+@media  screen and (max-width:984px) {
+    .intro {
+        grid-template-columns: 4fr 1.5fr;
+    }
+}
+@media  screen and (max-width:710px) {
+    .intro {
+        grid-template-columns: 1fr;
+    }
+}

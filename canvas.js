@@ -7,13 +7,13 @@ function rfAudio() {
         nasheeds[a].pause();
         nasheeds[a].currentTime = 0;
     }
-    canvas.style.display = "block";
+    // canvas.style.display = "block";
     
     let num = random(1,14);
     document.getElementsByClassName('audio')[num].play();
-    document.getElementsByClassName('audio')[num].addEventListener('ended',function() {
-        canvas.style.display = "none";
-    });
+    // document.getElementsByClassName('audio')[num].addEventListener('ended',function() {
+    //     // canvas.style.display = "none";
+    // });
 }
 
 

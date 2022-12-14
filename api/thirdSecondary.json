@@ -1,0 +1,13 @@
+{
+    "physics" : { "title": "", "description": "", "link":""},
+    "math" : { "title": "", "description": "", "link":""},
+    "biology": { "title": "", "description": "", "link":""},
+    "chemics": { "1": { "title": "الكيمياء العضوية", "description": "منهج الكيمياء العضوية كامله بمعادلاتها كافة", "link":"https://drive.google.com/file/d/1X62eU0RjFitMz7jTEHG3HgdSFDn_5AQB/preview" }},
+    "arabic":{ "title": "", "description": "", "link":""},
+    "english":{ "title": "", "description": "", "link":""},
+    "france":{ "title": "", "description": "", "link":""},
+    "geography":{ "title": "", "description": "", "link":""},
+    "history":{ "title": "", "description": "", "link":""},
+    "dynamics":{ "title": "", "description": "", "link":""},
+    "statics":{ "title": "", "description": "", "link":""}
+}

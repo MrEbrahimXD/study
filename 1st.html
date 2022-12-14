@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>مواد الصف الاول الثانوي</title>
     <link rel="icon" href="/images/icon.jpg" />
-    <script src="./swup.min.js" defer></script>
     <!-- <script src="./swup.js" defer></script> -->
     <link rel="stylesheet" href="animate.css" />
     <!-- <link rel="stylesheet" href="style_1st.css" /> -->
@@ -20,9 +19,14 @@
     <link rel="stylesheet" href="searchBar.css">
     <link rel="stylesheet" href="style.css">
     <script src="navigation.js" defer></script>
-    <script src="rain_animation.js" defer></script>
-    <script src="./swup.js" defer></script>
+    <!-- <script src="rain_animation.js" defer></script> -->
+    <!-- Barba.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js" defer></script>
+    <script src="barba_animate.js" defer></script>
 
+
+    <!-- Barba Ended -->
     <script defer src="./jquery.min.js"></script>
     <script defer src="./index.js"></script>
     <script src="./canvas.js" defer></script>
@@ -43,8 +47,14 @@
       content="https://mrebrahimxd.com/study/images/study.jpg"
     />
   </head>
-  <body>
-    
+  <body data-barba="wrapper">
+    <ul class="transition">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+  </ul>
     <audio src="./audio/morning_1.mp3" class="audio" style="display: none;"></audio>
     <audio src="./audio/allahu.mp3" class="audio" style="display: none;"></audio>
     <audio src="./audio/subh.mp3" class="audio" style="display: none;"></audio>
@@ -85,7 +95,7 @@
         <a href="#" style="font-size:15px;" class="icon" onclick="navigation()">&#9776;</a>
       </div>
     </header>
-    <main class="transition-fade" id="swup">
+    <main data-barba="container" data-barba-namespace="1st">
       <section class="intro">
         <div class="card">
           <div class="second hero">
