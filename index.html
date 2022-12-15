@@ -175,8 +175,13 @@
 
 
     <script>
+<<<<<<< HEAD
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js');
+=======
+        if (typeof navigator.serviceWorker !== 'undefined') {
+            navigator.serviceWorker.register('service_worker.js')
+>>>>>>> e177e02c5ae0a760a0cdff79ad612dd0ec20a6f4
         }
 
     </script>
