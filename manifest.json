@@ -1,52 +1,55 @@
 {
-    "name": "Mozakrty",
-    "short_name": "Mozakrty",
-    "start_url": "/index.html",
-    "icons": [
-      {
-        "src": "icons/manifest-icon-192.maskable.png",
-        "sizes": "192x192",
-        "type": "image/png",
-        "purpose": "any"
-      },
-      {
-        "src": "icons/manifest-icon-192.maskable.png",
-        "sizes": "192x192",
-        "type": "image/png",
-        "purpose": "maskable"
-      },
-      {
-        "src": "icons/manifest-icon-512.maskable.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "any"
-      },
-      {
-        "src": "icons/manifest-icon-512.maskable.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "maskable"
-      }
-    ],
-    "theme_color": "#000000",
-    "background_color" : "#FFFFFF",
-    "display": "fullscreen",
-    "orientation":"portrait",
-    "shortcuts": [
-        {
-          "name":"الصف الأول الثانوي",
-          "url":"/1st.html",
-          "icons":[]
-        },
-        {
-          "name":"الصف الثاني الثانوي",
-          "url":"/2nd.html",
-          "icons":[]
-        },
-        {
-          "name":"الصف الثالث الثانوي",
-          "url":"/3rd.html",
-          "icons":[]
-        }
-    ]
+  "name": "Mozakrty",
+  "short_name": "Mozakrty",
+  "start_url": "/index.html",
+  "icons": [
+    {
+      "src": "icons/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#FFFFFF",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "shortcuts": [
+    {
+      "name": "الصف الأول الثانوي",
+      "url": "/1st.html",
+      "icons": []
+    },
+    {
+      "name": "الصف الثاني الثانوي",
+      "url": "/2nd.html",
+      "icons": []
+    },
+    {
+      "name": "الصف الثالث الثانوي",
+      "url": "/3rd.html",
+      "icons": []
+    }
+  ],
+  "dir": "rtl",
+  "lang": "ar",
+  "description": "Mozakrty App Learn And Study Well!"
 }
