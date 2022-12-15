@@ -31,5 +31,22 @@
     "theme_color": "#000000",
     "background_color" : "#FFFFFF",
     "display": "fullscreen",
-    "orientation":"portrait"
+    "orientation":"portrait",
+    "shortcuts": [
+        {
+          "name":"الصف الأول الثانوي",
+          "url":"/1st.html",
+          "icons":[]
+        },
+        {
+          "name":"الصف الثاني الثانوي",
+          "url":"/2nd.html",
+          "icons":[]
+        },
+        {
+          "name":"الصف الثالث الثانوي",
+          "url":"/3rd.html",
+          "icons":[]
+        }
+    ]
 }
