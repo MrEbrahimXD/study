@@ -175,8 +175,8 @@
 
 
     <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/service_worker.js');
+        if (typeof navigator.serviceWorker !== 'undefined') {
+            navigator.serviceWorker.register('service_worker.js')
         }
 
     </script>
