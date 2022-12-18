@@ -1,12 +1,94 @@
-{
-    "physics" : { "1": {"title": "", "description": "", "link":"" }},
-    "math" : { "title": "", "description": "", "link":""},
-    "biology": { "title": "", "description": "", "link":""},
-    "chemics": { "title": "", "description": "", "link":""},
-    "arabic":{ "title": "", "description": "", "link":""},
-    "english":{ "title": "", "description": "", "link":""},
-    "france":{ "title": "", "description": "", "link":""},
-    "geography":{ "title": "", "description": "", "link":""},
-    "history":{ "title": "", "description": "", "link":""}
-}
-  
+[
+    {
+        "physics": [
+            {
+                "title": "",
+                "type": "",
+                "description": "",
+                "link": "",
+                "img": "",
+                "poster": ""
+            }
+        ],
+        "math": [
+            {
+                "title": "",
+                "type": "",
+                "description": "",
+                "link": "",
+                "img": "",
+                "poster": ""
+            }
+        ],
+        "biology": [
+            {
+                "title": "",
+                "type": "",
+                "description": "",
+                "link": "",
+                "img": "",
+                "poster": ""
+            }
+        ],
+        "chemics": [
+            {
+                "title": "",
+                "type": "",
+                "description": "",
+                "link": "",
+                "img": "",
+                "poster": ""
+            }
+        ],
+        "arabic": [
+            {
+                "title": "",
+                "type": "",
+                "description": "",
+                "link": "",
+                "img": "",
+                "poster": ""
+            }
+        ],
+        "english": [
+            {
+                "title": "",
+                "type": "",
+                "description": "",
+                "link": "",
+                "img": "",
+                "poster": ""
+            }
+        ],
+        "france": [
+            {
+                "title": "",
+                "type": "",
+                "description": "",
+                "link": "",
+                "img": "",
+                "poster": ""
+            }
+        ],
+        "geography": [
+            {
+                "title": "",
+                "type": "",
+                "description": "",
+                "link": "",
+                "img": "",
+                "poster": ""
+            }
+        ],
+        "history": [
+            {
+                "title": "",
+                "type": "",
+                "description": "",
+                "link": "",
+                "img": "",
+                "poster": ""
+            }
+        ]
+    }
+]
